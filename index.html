@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper & Scissors</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="container-div">
+        <div class="title">
+          <h1 class="h1-title">
+            WELCOME TO THE ULTIMATE BATTLE <br />OF <br />
+            <span style="color: red">ROCK</span>,
+            <span style="color: blue">SCISSORS</span> AND
+            <span style="color: green">PAPER</span>
+          </h1>
+        </div>
+        <div class="main-container">
+          <div class="image-1">
+            <img
+              src="./public/images/HUMAN.png"
+              alt="Human Player"
+              width="300px"
+              height="450px"
+            />
+            <div style="padding-right: 40px; text-align: center">
+              <h3>You</h3>
+              <span id="playerScore" class="score-number">0</span>
+            </div>
+          </div>
+          <div class="image-1 custom-width">
+            <div class="verses">
+              <div>
+                <img
+                  src="./public/images/verses.png"
+                  alt="Versus"
+                  width="110px"
+                  height="147px"
+                />
+              </div>
+              <div class="result-display">
+                <div id="gameResult" class="result-text"></div>
+                <div id="roundResult" class="round-result"></div>
+              </div>
+            </div>
+            <div class="computer-choice-display">
+              <div id="computerChoice" class="computer-choice-text"></div>
+            </div>
+          </div>
+          <div class="image-1">
+            <img
+              src="./public/images/COMPUTER.png"
+              alt="Computer Player"
+              width="300px"
+              height="450px"
+            />
+            <div style="text-align: center">
+              <h3>Computer</h3>
+              <span id="computerScore" class="score-number">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="weapon-section">
+          <div>
+            <h1>Select your Weapon⚔️</h1>
+          </div>
+          <div class="btn-container">
+            <button class="btn" data-choice="rock">
+              <span hidden class="choice-emoji">🪨</span>
+              <span hidden class="choice-name">Rock</span>
+              <img
+                src="./public/images/rock.png"
+                alt="Rock"
+                width="80px"
+                height="80px"
+              />
+            </button>
+            <button class="btn" data-choice="paper">
+              <span hidden class="choice-emoji">📄</span>
+              <span hidden class="choice-name">Paper</span>
+              <img
+                src="./public/images/paper.png"
+                alt="Paper"
+                width="80px"
+                height="80px"
+              />
+            </button>
+            <button class="btn" data-choice="scissors">
+              <span hidden class="choice-emoji">✂️</span>
+              <span hidden class="choice-name">Scissors</span>
+              <img
+                src="./public/images/scissors.png"
+                alt="Scissors"
+                width="80px"
+                height="80px"
+              />
+            </button>
+          </div>
+          <button class="reset-btn">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add the JavaScript file -->
+    <script src="./script.js"></script>
+  </body>
+</html>
