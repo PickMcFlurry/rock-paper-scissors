@@ -136,8 +136,6 @@ Contributions are welcome! Here's how you can help:
 
 ⭐ **Star this repository if you enjoyed the game!** ⭐
 
-Made with ❤️ and JavaScript
+Made with ❤️ by Bardan Gurung
 
-```
 
-```
