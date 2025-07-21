@@ -6,7 +6,7 @@ A fun and interactive Rock Paper Scissors game built with HTML, CSS, and JavaScr
 
 ![Screenshot of gameplay](./public/images/screenshot.png)
 
-##Figma File(https://www.figma.com/design/jDrCIn4XPGCkQV4zciIAUU/Rock-paper-scissors?node-id=0-1&t=d6XEDluTaPCvsnV3-1)
+## Figma File(https://www.figma.com/design/jDrCIn4XPGCkQV4zciIAUU/Rock-paper-scissors?node-id=0-1&t=d6XEDluTaPCvsnV3-1)
 
 ## 🎮 Features
 
